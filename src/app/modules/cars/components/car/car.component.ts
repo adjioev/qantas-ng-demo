@@ -11,9 +11,11 @@ import 'rxjs/add/operator/switchMap';
 export class CarComponent implements OnInit, OnDestroy {
   @Input() id: number;
 
+  @Input() review: string;
+
   private sub: any;
 
-  car: any; 
+  car: any;
 
   constructor(
     private route: ActivatedRoute,

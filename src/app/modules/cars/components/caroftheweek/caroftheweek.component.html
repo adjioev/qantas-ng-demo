@@ -1,5 +1,3 @@
 <div *ngIf="carOfTheWeek">
-  <app-car  id="{{ carOfTheWeek.modelId }}"></app-car>
-  <p> Review: {{ carOfTheWeek.review }} </p>
+  <app-car  id="{{ carOfTheWeek.modelId }}" review="{{ carOfTheWeek.review }}"></app-car>
 </div>
-
