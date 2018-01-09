@@ -22,7 +22,7 @@ export class CarsService {
    * @param file
    */
   private fetch(file: string): Observable<any> {
-    return this.http.get(`/assets/${file}`).map((res: any) => res.json());
+    return this.http.get(`assets/${file}`).map((res: any) => res.json());
   }
 
 

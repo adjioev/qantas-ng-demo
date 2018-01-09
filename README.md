@@ -1,6 +1,7 @@
 # QantasNgDemo
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.2.0.
+This is a demo project for Qantas dev team.
+
 
 ## Development server
 
