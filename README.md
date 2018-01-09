@@ -2,6 +2,8 @@
 
 This is a demo project for Qantas dev team.
 
+Project is deployed to http://45.77.238.89/qantasngdemo/
+
 
 ## Development server
 
