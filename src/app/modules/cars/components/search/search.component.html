@@ -15,7 +15,7 @@
     </mat-select>
   </mat-form-field>
 
-  <button mat-icon-button (click)=search()>
+  <button mat-icon-button [disabled]="!modelId" (click)="search()">
     <mat-icon>search</mat-icon>
   </button>
 </div>

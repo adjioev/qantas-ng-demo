@@ -44,7 +44,6 @@ export class CarsService {
     return this.fetch(this.sources.modelsFile);
   }
 
-
   /**
    * Returns list of models for a given model id.
    *

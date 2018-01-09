@@ -1,0 +1,12 @@
+.container {
+    margin-top: 50px;
+}
+
+.menu {
+  display: flex;
+  flex-direction: row;
+}
+
+.menu-item {
+  margin-right: 20px;
+}

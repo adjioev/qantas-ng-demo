@@ -5,6 +5,15 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { CarsModule } from 'app/modules/cars/cars.module';
 
+// Material 2 library
+import {
+  MatCardModule,
+  MatSelectModule,
+  MatButtonModule,
+  MatIconModule,
+  MatMenuModule,
+  MatToolbarModule
+} from '@angular/material';
 
 @NgModule({
   declarations: [
@@ -13,7 +22,13 @@ import { CarsModule } from 'app/modules/cars/cars.module';
   imports: [
     BrowserModule,
     AppRoutingModule,
-    CarsModule
+    CarsModule,
+    MatMenuModule,
+    MatToolbarModule,
+    MatCardModule,
+    MatButtonModule,
+    MatSelectModule,
+    MatIconModule
   ],
   providers: [],
   bootstrap: [AppComponent]
