@@ -1,0 +1,23 @@
+<div>
+  <mat-form-field>
+    <mat-select placeholder="Car Makes" (change)="onMakeSelect($event.value)">
+      <mat-option *ngFor="let make of makes" [value]="make.id">
+        {{ make.name }}
+      </mat-option>
+    </mat-select>
+  </mat-form-field>
+
+  <mat-form-field>
+    <mat-select placeholder="Car Models" (change)="onModelSelect($event.value)">
+      <mat-option *ngFor="let model of models" [value]="model.id">
+        {{ model.name }}
+      </mat-option>
+    </mat-select>
+  </mat-form-field>
+
+  <button mat-icon-button (click)=search()>
+    <mat-icon>search</mat-icon>
+  </button>
+
+
+</div>
