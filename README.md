@@ -4,6 +4,11 @@ This is a demo project for Qantas dev team.
 
 Project is deployed to http://45.77.238.89/qantasngdemo/
 
+To install dependencies run "npm install"
+
+To start the project "npm start"
+
+
 
 ## Development server
 
